@@ -10,7 +10,7 @@ const UseLocalStorage = (key, initialValue) => {
 
     });
 
-    return [storedValue];
+    return [storedValue, setValue];
 }  
 
 const setValue = (value) => {
